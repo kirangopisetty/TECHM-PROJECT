@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Industries</name>
+   <tag></tag>
+   <elementGuidId>8b41dbfb-a70e-40e9-b3c8-0db689a4aa67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='block-mainnavigation']/div/div/div/ul/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.tb-megamenu-item.level-1.mega.mega-align-justify.dropdown.open.animating > a.dropdown-toggle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2c076ca6-ef90-4bf7-ab11-6c4fc863e530</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/industries/</value>
+      <webElementGuid>acc0dab3-32c9-48ba-8782-7879d29f3d68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-toggle</value>
+      <webElementGuid>22b95de0-3f1f-4e7b-82e7-412979dc9a28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>2dc5d948-46bd-4f1f-9281-5ea8156d28ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          Industries
+          
+          </value>
+      <webElementGuid>53caf0a9-af77-4a22-9719-84ff0704796c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;block-mainnavigation&quot;)/div[@class=&quot;content&quot;]/div[@class=&quot;tb-megamenu tb-megamenu-main&quot;]/div[@class=&quot;nav-collapse always-show&quot;]/ul[@class=&quot;tb-megamenu-nav nav level-0 items-7&quot;]/li[@class=&quot;tb-megamenu-item level-1 mega mega-align-justify dropdown open animating&quot;]/a[@class=&quot;dropdown-toggle&quot;]</value>
+      <webElementGuid>1a698ca5-9b93-42df-a4d7-7b693e243a9b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='block-mainnavigation']/div/div/div/ul/li[3]/a</value>
+      <webElementGuid>7c839209-9b77-48fa-b15c-95fa7829273d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Industries')]</value>
+      <webElementGuid>4fea6099-6f39-463b-ad0b-35e4085ab59a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Innovation, R&amp;D - Makers Lab'])[1]/following::a[1]</value>
+      <webElementGuid>6b20becc-d33e-433b-929f-26fbd9e1a6b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Scale at Speed™'])[2]/following::a[2]</value>
+      <webElementGuid>d543f14d-203c-4e8f-ab46-e8fe698638e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Industries'])[2]/preceding::a[1]</value>
+      <webElementGuid>06cf0667-60ce-47e3-a96b-42f90259ba84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Banking &amp; Financial Services'])[1]/preceding::a[1]</value>
+      <webElementGuid>2af6d79c-9800-47a3-8bef-400468ac1337</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Industries']/parent::*</value>
+      <webElementGuid>9cd36c5f-965f-42b2-a814-39e5544d0dc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/industries/')]</value>
+      <webElementGuid>60fc357c-75f9-44d1-97d8-e2e4bcdd7b8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>1685f7a3-159a-48ad-8687-168e025c87eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/industries/' and (text() = '
+          Industries
+          
+          ' or . = '
+          Industries
+          
+          ')]</value>
+      <webElementGuid>2853468c-e0f7-4319-a0ab-8c1c2568e85c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

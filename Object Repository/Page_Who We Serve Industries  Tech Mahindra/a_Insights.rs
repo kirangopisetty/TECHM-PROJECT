@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Insights</name>
+   <tag></tag>
+   <elementGuidId>692bbd43-8fbc-4d93-a3aa-e1a8214f3e03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='block-mainnavigation']/div/div/div/ul/li[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.tb-megamenu-item.level-1.mega.mega-align-justify.dropdown.open.animating > a.dropdown-toggle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c3c1fb05-b35b-42fb-8fb5-974c7b4bb4ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/insights/</value>
+      <webElementGuid>c70517db-31f4-40c5-a80f-75f841fbd941</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-toggle</value>
+      <webElementGuid>9a593031-2833-4362-98d0-050df23de59f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>633e8a04-462f-4b4a-b4a7-c7fb174a1605</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          Insights
+          
+          </value>
+      <webElementGuid>5a907367-136e-41bd-89e2-22c4c93d69d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;block-mainnavigation&quot;)/div[@class=&quot;content&quot;]/div[@class=&quot;tb-megamenu tb-megamenu-main&quot;]/div[@class=&quot;nav-collapse always-show&quot;]/ul[@class=&quot;tb-megamenu-nav nav level-0 items-7&quot;]/li[@class=&quot;tb-megamenu-item level-1 mega mega-align-justify dropdown open animating&quot;]/a[@class=&quot;dropdown-toggle&quot;]</value>
+      <webElementGuid>eaf99a93-60e3-4748-9694-5ba3224c681d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='block-mainnavigation']/div/div/div/ul/li[4]/a</value>
+      <webElementGuid>598c78c3-f975-46f4-8675-18b2b49ef34d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Insights')]</value>
+      <webElementGuid>f265a7fa-c8f1-4f6a-aba6-1acc3923f25a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read More'])[2]/following::a[1]</value>
+      <webElementGuid>1e019074-61ae-40f3-a86b-b2b51d895a79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Featured Case Studies'])[2]/following::a[2]</value>
+      <webElementGuid>3dd49543-c04a-469a-b888-d154c08b25c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insights'])[2]/preceding::a[1]</value>
+      <webElementGuid>2777358f-c008-4e93-a02a-fff9487bd5b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Case Studies'])[1]/preceding::a[1]</value>
+      <webElementGuid>92236403-9972-4503-b91c-d0128b0a1ea4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Insights']/parent::*</value>
+      <webElementGuid>c22dcb82-1974-4096-a506-39b9910e6d7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/insights/')])[5]</value>
+      <webElementGuid>1ecf069f-15b6-4751-b243-a7344dcd2151</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a</value>
+      <webElementGuid>467c768f-daa0-478a-aacc-e50440b400be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/insights/' and (text() = '
+          Insights
+          
+          ' or . = '
+          Insights
+          
+          ')]</value>
+      <webElementGuid>cbe72fd2-0fa9-47cd-a2b2-fbca4952d5bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
