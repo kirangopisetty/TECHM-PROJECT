@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS02-COMPUTERS</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>33e7cb8d-6101-4063-a6b4-a106a5faebc7</testSuiteGuid>
+   <testCaseLink>
+      <guid>e4fd2b60-ba55-4791-852a-962744711695</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/KEYWORD-DRIVEN-TESTING/TC26</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>82fd1ddf-3137-41ee-b47b-1b000c4296eb</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/computersCSVtestData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>82fd1ddf-3137-41ee-b47b-1b000c4296eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>﻿computerName</value>
+         <variableId>a107c460-45b2-46a7-ade8-e15c52540383</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>82fd1ddf-3137-41ee-b47b-1b000c4296eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>introducedDate</value>
+         <variableId>3e1c83bc-cb5e-4db9-bc7a-1a8670e7d348</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>82fd1ddf-3137-41ee-b47b-1b000c4296eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>discontinuedDate</value>
+         <variableId>68b2f8d4-caa1-4164-9ae0-c2acfb2c35d0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>82fd1ddf-3137-41ee-b47b-1b000c4296eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>companyIndexNumber</value>
+         <variableId>7a99d7a3-b125-42e8-bc54-f9c74c1fcfbf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>82fd1ddf-3137-41ee-b47b-1b000c4296eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>filterByComputerName</value>
+         <variableId>0f580f16-16b0-42c5-a95e-0f9bb3f392bb</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS03-ADD-COMPUTER</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>5270cf41-9796-4355-be06-d7872ff969bd</testSuiteGuid>
+   <testCaseLink>
+      <guid>d45107be-ec49-420e-877c-dbd8d61e6ace</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/KEYWORD-DRIVEN-TESTING/TC27</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2fef6d1e-d86f-4574-819c-983208d2272a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/addComputerTestData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2fef6d1e-d86f-4574-819c-983208d2272a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>compName</value>
+         <variableId>88db88af-8227-4995-b915-2b45b638ac13</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2fef6d1e-d86f-4574-819c-983208d2272a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>introducedDate</value>
+         <variableId>420b6483-6817-480b-87d9-1b0841bf3693</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2fef6d1e-d86f-4574-819c-983208d2272a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>discontinuedDate</value>
+         <variableId>55e7cc1f-1051-42dc-82c0-97661dd02bf3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2fef6d1e-d86f-4574-819c-983208d2272a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>companyIndex</value>
+         <variableId>b81b2101-e0ef-4c83-b50d-1022cc853fdc</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
