@@ -17,31 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://testpages.herokuapp.com/styled/alerts/alert-test.html')
+WebUI.openBrowser('https://stqatools.com/demo/Register.php')
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('ALERTS-OR/SHOW-CONFIRM-BOX-BUTTON'), 2)
+WebUI.setText(findTestObject('REGISTRATION-OR/NAME'), 'Tech Mahindra')
 
-WebUI.click(findTestObject('ALERTS-OR/SHOW-CONFIRM-BOX-BUTTON'))
+WebUI.setText(findTestObject('REGISTRATION-OR/ADDRESS'), 'Pune')
 
-isAlertOpen = WebUI.verifyAlertPresent(5)
+WebUI.click(findTestObject('REGISTRATION-OR/GENDER-MALE'))
 
-if (isAlertOpen == true) {
-    println('Alert is open')
-}
+WebUI.scrollToElement(findTestObject('REGISTRATION-OR/SUBMIT'), 5)
 
-WebUI.acceptAlert()
+WebUI.check(findTestObject('REGISTRATION-OR/HOBBIES-TRAVEL'))
 
-WebUI.click(findTestObject('ALERTS-OR/SHOW-CONFIRM-BOX-BUTTON'))
+WebUI.selectOptionByLabel(findTestObject('REGISTRATION-OR/COUNTRY-DROPDOWN'), 'United States of America', false)
 
-WebUI.waitForAlert(4)
-
-WebUI.dismissAlert()
-
-isAlertClosed = WebUI.verifyAlertNotPresent(5)
-
-if (isAlertClosed == true) {
-    println('Alert is closed')
-}
+WebUI.selectOptionByValue(findTestObject('REGISTRATION-OR/CITY-DROPDOWN'), 'New York', false)
 

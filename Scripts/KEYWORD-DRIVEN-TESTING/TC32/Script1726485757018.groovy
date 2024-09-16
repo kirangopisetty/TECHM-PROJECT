@@ -17,31 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://testpages.herokuapp.com/styled/alerts/alert-test.html')
+WebUI.openBrowser('https://stqatools.com/demo/Register.php')
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('ALERTS-OR/SHOW-CONFIRM-BOX-BUTTON'), 2)
+WebUI.scrollToElement(findTestObject('REGISTRATION-OR/SUBMIT'), 5)
 
-WebUI.click(findTestObject('ALERTS-OR/SHOW-CONFIRM-BOX-BUTTON'))
+isUSpresent = WebUI.verifyOptionPresentByLabel(findTestObject('REGISTRATION-OR/COUNTRY-DROPDOWN'), 'United States of America', 
+    false, 2)
 
-isAlertOpen = WebUI.verifyAlertPresent(5)
+if (isUSpresent==true) {
+WebUI.selectOptionByLabel(findTestObject('REGISTRATION-OR/COUNTRY-DROPDOWN'), 'United States of America', false)
+}
+countrySelection = WebUI.verifyOptionSelectedByLabel(findTestObject('REGISTRATION-OR/COUNTRY-DROPDOWN'), 'United States of America', 
+    false, 3)
 
-if (isAlertOpen == true) {
-    println('Alert is open')
+if (countrySelection == true) {
+    WebUI.selectOptionByValue(findTestObject('REGISTRATION-OR/CITY-DROPDOWN'), 'New York', false)
 }
 
-WebUI.acceptAlert()
+WebUI.selectOptionByLabel(findTestObject('REGISTRATION-OR/COUNTRY-DROPDOWN'), 'United Kingdom', false)
 
-WebUI.click(findTestObject('ALERTS-OR/SHOW-CONFIRM-BOX-BUTTON'))
+countrySelection2 = WebUI.verifyOptionSelectedByLabel(findTestObject('REGISTRATION-OR/COUNTRY-DROPDOWN'), 'United Kingdom', 
+    false, 4)
 
-WebUI.waitForAlert(4)
-
-WebUI.dismissAlert()
-
-isAlertClosed = WebUI.verifyAlertNotPresent(5)
-
-if (isAlertClosed == true) {
-    println('Alert is closed')
+if (countrySelection2 == true) {
+    WebUI.selectOptionByValue(findTestObject('REGISTRATION-OR/CITY-DROPDOWN'), 'London', false)
 }
 

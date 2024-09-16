@@ -17,31 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://testpages.herokuapp.com/styled/alerts/alert-test.html')
+WebUI.openBrowser('https://stqatools.com/demo/Register.php')
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('ALERTS-OR/SHOW-CONFIRM-BOX-BUTTON'), 2)
+id = WebUI.getAttribute(findTestObject('REGISTRATION-OR/NAME'), 'id')
+println("The id attribute value is "+id);
 
-WebUI.click(findTestObject('ALERTS-OR/SHOW-CONFIRM-BOX-BUTTON'))
+name = WebUI.getAttribute(findTestObject('REGISTRATION-OR/NAME'), 'name')
+println("The name attribute value is "+name);
 
-isAlertOpen = WebUI.verifyAlertPresent(5)
+type = WebUI.getAttribute(findTestObject('REGISTRATION-OR/NAME'), 'type')
+println("The type attribute value is "+type);
 
-if (isAlertOpen == true) {
-    println('Alert is open')
-}
-
-WebUI.acceptAlert()
-
-WebUI.click(findTestObject('ALERTS-OR/SHOW-CONFIRM-BOX-BUTTON'))
-
-WebUI.waitForAlert(4)
-
-WebUI.dismissAlert()
-
-isAlertClosed = WebUI.verifyAlertNotPresent(5)
-
-if (isAlertClosed == true) {
-    println('Alert is closed')
-}
-
+xpath = WebUI.getAttribute(findTestObject('REGISTRATION-OR/NAME'), 'xpath')
+println("The xpath attribute value is "+xpath);

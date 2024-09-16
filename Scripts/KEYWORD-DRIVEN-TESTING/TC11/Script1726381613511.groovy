@@ -31,6 +31,10 @@ WebUI.acceptAlert()
 
 WebUI.click(findTestObject('ALERTS-OR/SHOW-PROMPT-BOX-BUTTON'))
 
+alertTextPresent = WebUI.getAlertText()
+
+System.out.println("The alert text present on the alert is "+alertTextPresent)
+
 WebUI.setAlertText('Tech Mahindra')
 
 WebUI.dismissAlert()
