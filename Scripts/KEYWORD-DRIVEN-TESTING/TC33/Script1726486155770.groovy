@@ -21,17 +21,43 @@ WebUI.openBrowser('https://stqatools.com/demo/Register.php')
 
 WebUI.maximizeWindow()
 
+WebUI.enableSmartWait()
+
 WebUI.setText(findTestObject('REGISTRATION-OR/NAME'), 'Tech Mahindra')
 
 WebUI.setText(findTestObject('REGISTRATION-OR/ADDRESS'), 'Pune')
 
-WebUI.click(findTestObject('REGISTRATION-OR/GENDER-MALE'))
+WebUI.clearText(findTestObject('REGISTRATION-OR/NAME'))
 
-WebUI.scrollToElement(findTestObject('REGISTRATION-OR/SUBMIT'), 5)
+WebUI.clearText(findTestObject('REGISTRATION-OR/ADDRESS'))
 
-WebUI.check(findTestObject('REGISTRATION-OR/HOBBIES-TRAVEL'))
+addressHeight = WebUI.getElementHeight(findTestObject('REGISTRATION-OR/ADDRESS'))
 
-WebUI.selectOptionByLabel(findTestObject('REGISTRATION-OR/COUNTRY-DROPDOWN'), 'United States of America', false)
+heightStatus = WebUI.verifyEqual(addressHeight, 44)
 
-WebUI.selectOptionByValue(findTestObject('REGISTRATION-OR/CITY-DROPDOWN'), 'New York', false)
+if (heightStatus == true) {
+    println('The height of address textbox is as per the requirements document & hence TC=PASSED')
+} else {
+    println('The height of address textbox is not as per the requirements document & hence TC=FAILED')
+}
+
+addressWidth = WebUI.getElementWidth(findTestObject('REGISTRATION-OR/ADDRESS'))
+
+widthStatus = WebUI.verifyEqual(addressWidth, 500)
+
+if (widthStatus==true) {
+	println('The width of address textbox is as per the requirements document & hence TC=PASSED')
+}
+else {
+	println('The width of address textbox is not as per the requirements document & hence TC=FAILED')
+	
+}
+
+println('The height of address textbox is ' + addressHeight)
+
+println('The width of address textbox is ' + addressWidth)
+
+WebUI.disableSmartWait()
+
+WebUI.closeBrowser()
 
